@@ -1,0 +1,29 @@
+apiVersion: dnacloud.home/v1alpha1
+kind: virtInfra
+metadata:
+  name: test-infra
+  namespace: string
+spec:
+  vmdetails:
+    id: 550
+    vmname: pv-node1
+    username: test
+    password: test
+  compute:
+    cpu:
+      cpu_count: 1
+      core_count: 1
+      memory: 1024
+    disk:
+      size: 10
+    network:
+      ipv4_addr: 192.168.0.10/24
+      gateway: 192.168.0.1
+  cloud:
+    content_type: iso
+  db:
+    dbname: test-db
+    dbuser: test-user
+    dbpass: test-pass
+
+
