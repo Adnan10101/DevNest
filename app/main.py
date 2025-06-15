@@ -26,6 +26,6 @@ async def create_virtual_claim(request: CreateInfraClaim):
 async def create_cloud_infra(request: CreateCloudClaim):
     req = Infra(env.CLOUD_FILE_PATH, env.REPO_NAME, cloud_claim)
     req.create_cloud(request)
-        
+
 if __name__ == "__main__":
-    uvicorn.run("main:app", host = '0.0.0.0',port = 6001, log_level = "info")
+    uvicorn.run("main:app", host = '0.0.0.0',port = 5003, log_level = "info")
