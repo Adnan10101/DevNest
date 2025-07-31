@@ -1,4 +1,4 @@
-# 🧠 DevNest: Self-Service Infrastructure-as-Code Platform
+#  DevNest: Self-Service Infrastructure-as-Code Platform
 
 **DevNest** is a modular, Kubernetes-native Infrastructure as a Service platform that allows users to request, provision, and manage infrastructure resources—such as VMs, storage, and databases—through declarative claims using a web UI or API.
 
